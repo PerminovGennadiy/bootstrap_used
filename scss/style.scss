@@ -4,8 +4,7 @@
     --color3: rgba(82, 51, 154, 0.4);
     --color4: rgba(5, 177, 177, 0.2);
 }
-header,
-footer,
+
 section {
     padding: 100px 0;
 }
@@ -74,6 +73,10 @@ footer {
     color: var(--bs-white);
     background-color: var(--color1);
     transition-duration: 1s;
+}
+
+p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6)
 }
 
 .embed-container {
@@ -201,4 +204,20 @@ footer {
     height: 3px;
     background-color: var(--color2);
     margin: 15px auto 30px;
+}
+
+/* payment */
+
+.buy li:last-child {
+    padding: 0 0 50px 0;
+}
+
+/* footer */
+
+footer {
+    padding: 30px 0;
+}
+
+footer a {
+    margin: 0 20px 0 0;
 }
